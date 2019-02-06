@@ -1,0 +1,65 @@
+  <!DOCTYPE html>
+<html>
+<head>
+	<title>Cse391 Lab2 15301016</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<script src="script.js"></script>
+	<section class="header-section">
+		<div class="container">
+			<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="part2.html">Part2</a></li>
+				<li><a href="part3.html">part3</a></li> 
+			</ul>
+			</nav>
+				<marquee width="35%">
+					<i>NAME:</i> Rukshanda Rahman
+					<i>ID:</i> 15301016
+					<i>LAB ASSIGNMENT:</i> 02
+				</marquee></br></br></br>
+		</div>
+	</section>
+	
+		<h2>Quote Box</h2><br>
+		<section class="box">
+
+		<div id="quote">
+			"I slept and dreamt that life was joy. I awoke and saw that life was service. I acted and behold, service was joy."-Tagore
+		</div>	
+		<div class="bbox">
+		<div id="button">
+			<button id="bluebtn" onclick="changeColor1('quote')">B</button>
+			<button id="greenbtn" onclick="changeColor2('quote')">G</button>
+			<button id="redbtn" onclick="changeColor3('quote')">R</button>
+			<button id="yellowbtn" onclick="changeColor4('quote')">Y</button>
+		</div>
+		</div>
+		
+		
+	</section>
+	<section class="converter">
+		<h2>WEIGHT CONVERTER</h2>
+		<div class="convert">
+		<p>
+  		<label>Convert  :</label>
+ 			<input type="number" id="n1"/>
+ 			 
+			<select id="operators">
+			<option value="kgtolb">kg to lb</option>
+			<option value="lbtokg">lb to kg</option>
+		</select>
+		<button onclick="calc()">Go</button>
+		<span id="result"></span>
+		</p>
+					
+		</div>
+	</section>
+  
+</script>
+</body>
+</html>

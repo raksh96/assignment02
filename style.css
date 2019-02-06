@@ -1,0 +1,93 @@
+*{
+	margin: 0%;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+.header-section{
+
+}
+.container{
+	height:65px;
+	background-color: cadetblue;
+}
+.container nav{
+}
+.container nav ul {
+	font-size:20px;
+	font-style:oblique;
+	font-weight:700;
+}
+.container nav ul li{
+	list-style: none;
+}
+.container nav ul li a{
+	text-decoration: none;
+	float: left;
+	padding:15px;
+	margin-right:40px;
+	color: #191cba;
+}
+.container nav ul li a:hover{
+	color: #3edf9d;
+	border-width: 2px;
+}
+.box{
+	height: 100px;
+	width: 100%;
+
+}
+.box #quote{
+	margin:2%;
+	border: 3px solid #4f97ba;
+	margin-bottom: 10px;
+	padding: 15px 15px 15px 15px;
+	text-align: center;
+	width: 90%;
+}
+.bttn-box{
+
+width: 30%;
+
+border-style: solid;
+
+border-color: #797ed3;
+
+height: 60px;
+}
+#bluebtn{
+	background-color: #007bb5;
+	color: #007bb5;
+	border: 5px solid #000066;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+#greenbtn {
+	background-color: green;
+	color: green;
+	border: 5px solid #4CAF50;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+#redbtn {
+	background-color: red;
+	color: red;
+	border: 5px solid maroon;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+#yellowbtn {
+	background-color: yellow;
+	color: yellow;
+	border: 5px solid #cc9900;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
